@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', 'https://github.com/orion2182/casestudy-jenkins.git'
+        git url: 'https://github.com/orion2182/casestudy-jenkins.git', branch: 'main'
       }
     }
     stage('Build Docker Image') {
