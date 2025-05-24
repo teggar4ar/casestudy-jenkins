@@ -4,7 +4,7 @@ pipeline {
   environment {
     IMAGE = "azeshion21/demo-app"
     TAG = "latest"
-    DOCKER_CRED = "dockerhub-cred"
+    DOCKER_CRED = "docker-hub"
     KUBECONFIG_CRED = "kubeconfig-dev"
     NAMESPACE = "default"
     HELM_RELEASE = "casestudy-jenkins1"
