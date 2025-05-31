@@ -1,4 +1,4 @@
 image:
-  repository: azeshion21/demo-app
+  repository: teggar4ar/demo-app
   tag: latest
 replicaCount: 1
